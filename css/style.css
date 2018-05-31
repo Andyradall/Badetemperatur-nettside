@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #ecf6fc;
+}
+
+/* wrapper */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* h1 */
+
+h1 {
+    font-family: 'Chalkboard';
+    size: 2em;
+    color: #0043a8;
+}
+
+/* Screenshot */
+
+.screenshot {
+    display: block;
+    height: auto;
+    max-width: 318px;
+    margin: 4px; 
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    margin: 30px; 
+    border-radius: 6px;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    font-family: Arial;
+    color: #0043a8;
+    font-size: 20px;
+    background: #ecf6fc;;
+    padding: 10px 20px 10px 20px;
+    border: solid #0043a8 1px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ddf1ff;
+    text-decoration: none;
+}
